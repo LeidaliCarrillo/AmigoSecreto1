@@ -7,3 +7,6 @@
 - Evita que una persona se asigne a sí misma
 - Envío de resultados por consola / correo (opcional)
 - Fácil de usar y configurar
+## 📦 Instalación
+
+1. Clona este repositorio:
