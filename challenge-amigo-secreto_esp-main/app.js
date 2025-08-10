@@ -47,4 +47,18 @@ function sortearAmigo() {
     const ganador = listaNombres[indiceGanador];
 
     resultado.innerHTML = `<li>🎉 El amigo sorteado es: <strong>${ganador}</strong></li>`;
+    // Esperar 5 segundos y reiniciar
+    setTimeout(() => {
+        // Vaciar el arreglo original
+        listaNombres.length = 0;
+
+        // Limpiar lista en pantalla
+        document.getElementById('listaAmigos').innerHTML = '';
+
+        // Limpiar resultado
+        resultado.innerHTML = '';
+
+        // Limpiar input
+        document.getElementById('amigo').value = '';
+    }, 5000); // Espera de 5 segundos
 }

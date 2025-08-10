@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #168888;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
+    --color-primary: #ffffff;
+    --color-secondary: #000000;
+    --color-tertiary: #000000;
     --color-button: #2e9599;
     --color-button-hover: #0c7d85;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #000000;
 }
 
 /* Estilos generales */
@@ -31,13 +31,6 @@ body {
 }
 
 /* Banner */
-.header-banner {
-    flex: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0 0;
-}
 
 /* Sección de entrada */
 .input-section {
@@ -136,7 +129,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #75d3ff;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +152,33 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.header-banner {
+    position: relative;
+    width: 100%;
+    height: 800px; /* Puedes ajustar el alto */
+    overflow: hidden;
+}
+
+.banner-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Para que cubra sin deformarse */
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.main-title {
+    position: relative;
+    z-index: 2;
+    color: rgb(28, 31, 32);
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
 }
