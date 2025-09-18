@@ -4,8 +4,8 @@
     --color-tertiary: #000000;
     --color-button: #2e9599;
     --color-button-hover: #0c7d85;
-    --color-text: #444444;
-    --color-white: #000000;
+    --color-text: #eee9e9;
+    --color-white: #ffffff;
 }
 
 /* Estilos generales */
@@ -26,41 +26,32 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
 /* Banner */
 
 /* Sección de entrada */
-.input-section {
-    flex: 60%;
-    background-color: var(--color-secondary);
-    border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-}
+
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 30px;
     font-family: "Merriweather", serif;
-    font-weight: 900;
+    font-weight: 700;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
     font-family: "Inter", serif;
-    font-size: 36px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--color-primary);
     margin: 10px 0;
     text-align: center;
+    text-shadow: 5px 5px 5px rgba(58, 248, 255, 0.8);
 }
 
 /* Contenedores de entrada y botón */
@@ -75,26 +66,29 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
-    border-radius: 25px 0 0 25px;
+    border: 2px solid #14879bda;
+    border-radius: 35px 0 0 35px;
     font-size: 16px;
+    box-shadow: 0 8px 8px rgba(20, 135, 155, 0.856);
 }
 
 .button-container {
-    width: 300px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 /* Estilos de entrada de texto */
 .input-title {
     flex: 1;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #333;
+    padding: 10px 5px;
+    font-size: 10px;
+    border: 2px solid #ffffff;
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
 }
 
 /* Estilos de botón */
@@ -102,9 +96,9 @@ button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    border: 2px solid #000;
+    border: 2px solid #fdfeff;
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 8px rgba(20, 135, 155, 0.856);
     cursor: pointer;
 }
 
@@ -115,7 +109,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #f2f5f5;
 }
 
 /* Listas */
@@ -129,7 +123,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #75d3ff;
+    color: #ffffff;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -155,30 +149,48 @@ ul {
 }
 
 .header-banner {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 110px 0 0;
+    
+    background-image: url("assets/astroo.jpg"); /* Ajusta si tu ruta es diferente */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 114%; /* Toda la pantalla */
     width: 100%;
-    height: 800px; /* Puedes ajustar el alto */
-    overflow: hidden;
+    overflow: visible;
+    position: relative;
+    top: 0px;
+    left: 0;
+    
+
 }
 
 .banner-background {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 0%;
+    height: 0%;
     object-fit: cover; /* Para que cubra sin deformarse */
-    z-index: 1;
-    top: 0;
+    z-index: 100;
+    top: -10px;
     left: 0;
 }
 
 .main-title {
     position: relative;
-    z-index: 2;
-    color: rgb(28, 31, 32);
-    font-size: 48px;
-    font-family: "Merriweather", serif;
+    z-index: 0;
+    color: rgb(255, 255, 255);
+    font-size: 0;
+    font-family: 'Inter', sans-serif;
     font-weight: 900;
-    font-style: italic;
+    font-style: normal;
     text-align: center;
-    width: 100%;
+    width: 0%;
+    top: -20px;
+    left: -20px;
+    text-shadow: 0px 0px 0px rgba(58, 248, 255, 0.8);
 }
