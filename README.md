@@ -5,11 +5,12 @@
 
 ## 🧠 Cómo Usar
 
-Haz clic en el video para ver cómo funciona el proyecto:
+Ingresa los nombres, da click en añadir, una vez que termines de agregar nombres haz click en sortear.
 
-<img width="760" height="195" alt="image" src="https://github.com/user-attachments/assets/fa484969-aa83-4d61-b282-80cabb31e821" />
 
----
+
+---<img width="1366" height="768" alt="Demo2" src="https://github.com/user-attachments/assets/37bf6cd6-d086-4986-a681-855376d83c3f" />
+
 
 ## 🛠 Tecnologías Utilizadas
 
