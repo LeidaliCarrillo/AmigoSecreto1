@@ -5,7 +5,7 @@
 
 ## 🧠 Cómo Usar
 
-Ingresa los nombres, da click en añadir, una vez que termines de agregar nombres haz click en sortear.
+"Ingresa los nombres en donde indica que los escribas, haz clic en 'Añadir' y, una vez que termines de agregarlos, haz clic en 'Sortear'."
 
 
 
