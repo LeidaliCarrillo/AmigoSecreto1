@@ -7,6 +7,7 @@
 
 "Ingresa los nombres en donde indica que los escribas, haz clic en 'Añadir' y, una vez que termines de agregarlos, haz clic en 'Sortear'."
 
+
 <img width="1366" height="768" alt="Demo2" src="https://github.com/user-attachments/assets/9d7ad36a-129a-43cb-9849-266f23e32cb6" />
 
 ---
