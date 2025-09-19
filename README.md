@@ -16,7 +16,7 @@
 
 Este proyecto fue desarrollado con las siguientes tecnologías:
 
-- **HTML5**
+- **HTML**
 - **CSS**
 - **JavaScript**
 
