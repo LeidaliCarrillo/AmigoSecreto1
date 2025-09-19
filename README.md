@@ -52,7 +52,7 @@ Este proyecto fue desarrollado como parte del programa **ONE - Oracle Next Educa
 
 Puedes ver el proyecto en línea haciendo clic en el siguiente enlace:
 
-👉 [Acceder al Juego del Amigo Secreto](#) <!-- Reemplaza # con la URL del proyecto si ya está publicado -->
+👉 https://leidalicarrillo.github.io/Challenge-amigo-secreto/
 
 ---
 
