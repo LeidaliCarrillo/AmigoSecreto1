@@ -52,7 +52,7 @@ Este proyecto fue desarrollado como parte del programa **ONE - Oracle Next Educa
 
 Puedes ver el proyecto en línea haciendo clic en el siguiente enlace:
 
-👉 [Acceder al Juego del Amigo Secreto](#) <!-- Reemplaza # con la URL del proyecto si ya está publicado -->
+👉 https://leidalicarrillo.github.io/Challenge-amigo-secreto/
 
 ---
 
@@ -67,10 +67,6 @@ Agradezco a **Alura Latam** y **Oracle** por el conocimiento compartido y las op
 El diseño se basa en un amigo secreto del espacio, la mano es un saludo como referencia a la película Interestelar cuando los saluda un amigo de otra dimensión.
 
 ## 👩🏻‍💻✨ Autora
-
-**[Leidalí D. Carrillo Fernández]**  
-Desarrolladora Front-End en formación | Participante de ONE - Oracle Next Education  
-
 
 **[Leidalí D. Carrillo Fernández]**  
 Desarrolladora Front-End en formación | Participante de ONE - Oracle Next Education  
