@@ -7,7 +7,7 @@
 
 Haz clic en el video para ver cómo funciona el proyecto:
 
-🎥 [![Demo del Juego](./assets/miniatura-video.png)](./assets/Challenge-amigo.mp4)
+<img width="760" height="195" alt="image" src="https://github.com/user-attachments/assets/fa484969-aa83-4d61-b282-80cabb31e821" />
 
 ---
 
